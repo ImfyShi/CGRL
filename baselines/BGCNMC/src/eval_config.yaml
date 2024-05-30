@@ -1,0 +1,95 @@
+# ai, ani, irinch, random, all
+instance_set_group: 'ai'
+policy_name: 'gnn_rl'
+gpu_id: 1
+REUSME: False
+is_stochastic: False
+batch_size: 1
+base_folder: '/home/sfy/Store/Benchmark/CuttingStockProblem/original_instances/instances/'
+write_folder: '/home/sfy/Store/Benchmark/CuttingStockProblem/tobetrained_instances/instances/root/'
+train_instance_sets_path:
+    instance_folder_list: [
+        'train_set'
+    ]
+    instance_set_name_list: [
+        '',
+    ]
+
+eval_instance_sets_path:
+    ai:
+        instance_folder_list: [
+            'Scholl_CSP/',
+            '',
+            'Scholl_CSP/',
+            'ANI_AI_CSP/',
+        ]
+        instance_set_name_list: [
+            'Scholl_3',
+            'Waescher_CSP',
+            'Scholl_2',
+            'AI',
+        ]
+    ani:
+        instance_folder_list: [
+            'Schwerin_CSP/',
+            'Schwerin_CSP/',
+            '',
+            'ANI_AI_CSP/',
+        ]
+        instance_set_name_list: [
+            'Schwerin_1',
+            'Schwerin_2',
+            'Hard28_CSP',
+            'ANI',
+        ]
+    irinch:
+        instance_folder_list: [
+            'Scholl_CSP/',
+            'Falkenauer_CSP/',
+            'Falkenauer_CSP/',
+            '',
+        ]
+        instance_set_name_list: [
+            'Scholl_1',
+            'Falkenauer_T',
+            'Falkenauer_U',
+            'Irnich_CSP',
+        ]
+    random:
+        instance_folder_list: [
+            '',
+        ]
+        instance_set_name_list: [
+            'Randomly_Generated_CSP',
+        ]
+    all:
+        instance_folder_list: [
+            'Scholl_CSP/',
+            '',
+            'Scholl_CSP/',
+            'Schwerin_CSP/',
+            'Schwerin_CSP/',
+            '',
+            '',
+            'ANI_AI_CSP/',
+            'ANI_AI_CSP/',
+            'Scholl_CSP/',
+            'Falkenauer_CSP/',
+            'Falkenauer_CSP/',
+            '',
+        ]
+        instance_set_name_list: [
+            'Scholl_3',
+            'Waescher_CSP',
+            'Scholl_2',
+            'Schwerin_1',
+            'Schwerin_2',
+            'Randomly_Generated_CSP',
+            'Hard28_CSP',
+            'AI',
+            'ANI',
+            'Scholl_1',
+            'Falkenauer_T',
+            'Falkenauer_U',
+            'Irnich_CSP',
+        ]

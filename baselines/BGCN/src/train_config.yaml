@@ -1,0 +1,6 @@
+gpu_id: 1
+REUSME: False
+batch_size: 1
+is_stochastic: True
+base_folder: 'train_set'
+write_folder: 'train_set'
